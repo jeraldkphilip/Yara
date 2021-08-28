@@ -18,7 +18,7 @@ rule Sample
    
 
   condition:
-    $a and 
+         $a or 
 	($b and $c and $d) or
 	// digital certificate intended to evade security solutions
 	($e or $f or $g) and ($h or $i) or
